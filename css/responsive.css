@@ -1,9 +1,64 @@
-@media (max-width: 576px) { 
-
- }
 
  /* Small devices */
-@media (min-width: 577px) and (max-width: 768px) { 
+@media (max-width: 768px) { 
+/* Header Section CSS */
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: baseline;
+        height: auto;
+    }
+   
+
+    .header-left{
+        width: 100%;
+    }
+    .header-left h1{
+        font-size: 32px;
+    }
+    .header-right{
+        width: 100%;
+    }
+
+    /* Main Section CSS */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fixed-left-buttons{
+        position: static;
+        display: flex;
+    }
+    .transfer-cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+    }
+
+    .single-card{
+        max-width: 400px;
+    }
+
+    /* Footer Section CSS */
+    .footer-top h1{
+        font-size: 48px;
+        padding-top: 30px;
+    }
+
+    ul.footer-menu{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .footer-menu li a{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
 
  }
 
@@ -13,7 +68,7 @@
     /* Header Section CSS */
 
     .container{
-        height: 100vh;
+        max-height: 70vh;
     }
     .header-left h1{
         font-size: 38px;
@@ -22,7 +77,8 @@
         font-size: 12px;
     }
     .header-right img{
-        height: 100vh;
+        max-height: 70vh;
+        overflow: hidden;
     }
 
     /* Main Section CSS */
@@ -55,17 +111,16 @@
     /* Footer Section CSS */
     .footer-top h1{
         font-size: 48px;
+        padding-top: 30px;
     }
 
-    .footer-menu{
+    ul.footer-menu{
         text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
     }
     .footer-menu li a{
         font-size: 16px;
     }
  }
 
-/* Large devices */
-@media (min-width: 992px) { 
-
- }
