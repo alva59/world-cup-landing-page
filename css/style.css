@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     display: flex;
     align-items: center;
-    max-height: 70vh;
+    height: 70vh;
 }
 
 .header-title {
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-right img {
     max-width: 100%;
-    max-height: 70vh;
+    height: 70vh;
     object-fit: cover;
     display: flex;
     justify-content: flex-end;
@@ -184,6 +184,32 @@ main {
     margin-right: 30px;
 }
 
+main a {
+    font-size: 16px;
+    font-family: 'merriweather', sans-serif;
+    padding: 10px 30px;
+    background: #983339;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main a:hover,
+main a:focus{
+    color: #fff;
+    background: #983339;
+}
+
+.tablet-button {
+    text-align: center;
+    display: none;
+    margin-top: 40px;
+}
+
+
+
 /* Footer CSS */
 
 footer {
@@ -215,6 +241,13 @@ ul.footer-menu {
     font-family: 'Merriweather';
     margin: 0 20px;
 }
+
+.footer-menu li a:hover {
+    text-decoration: underline;
+    color: #434242;
+    
+}
+
 
 .footer-bottom {
     padding: 20px 0;

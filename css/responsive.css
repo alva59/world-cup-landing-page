@@ -1,0 +1,45 @@
+@media (max-width: 576px) { 
+
+ }
+
+ /* Small devices */
+@media (min-width: 577px) and (max-width: 768px) { 
+
+ }
+
+/* Medium devices */
+@media (min-width: 769px) and (max-width: 992px) { 
+
+    /* Header Section CSS */
+
+    .container{
+        height: 100vh;
+    }
+    .header-left h1{
+        font-size: 38px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+    .header-right img{
+        height: 100vh;
+    }
+
+    /* Main Section CSS */
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .fixed-left-buttons{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+ }
+
+/* Large devices */
+@media (min-width: 992px) { 
+
+ }
