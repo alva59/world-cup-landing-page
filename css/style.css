@@ -43,6 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container p{
     margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .header-right {
@@ -132,6 +134,12 @@ main {
     text-align: center;
 }
 
+.fixed-left-buttons a:hover,
+.fixed-left-buttons a:focus{
+    color: #fff;
+    background: #983339;
+}
+
 .transfer-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -166,11 +174,16 @@ main {
     text-decoration: none;
     font-weight: 600;
 }
+.single-card-info a:hover,
+.single-card-info a:focus{
+    color: #fff;
+    background: #983339;
+}
 
 .single-card h3{
     font-size: 18px;
     font-weight: 600;
-    line-height: 21px;
+    line-height: 27px;
     margin-top: 25px;
 }
 
@@ -184,7 +197,7 @@ main {
     margin-right: 30px;
 }
 
-main a {
+.tablet-button a {
     font-size: 16px;
     font-family: 'merriweather', sans-serif;
     padding: 10px 30px;
@@ -196,8 +209,8 @@ main a {
     font-weight: 600;
 }
 
-main a:hover,
-main a:focus{
+.tablet-button a:hover,
+.tablet-button a:focus{
     color: #fff;
     background: #983339;
 }
@@ -241,7 +254,8 @@ ul.footer-menu {
     margin-right: 20px;
 }
 
-.footer-menu li a:hover {
+.footer-menu li a:hover,
+.footer-menu li a:focus {
     text-decoration: underline;
     color: #434242;
     
