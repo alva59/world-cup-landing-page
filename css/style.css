@@ -216,12 +216,12 @@ footer {
     background: #658A4C;
     color: #f1f1f1;
     text-align: center;
+    padding: 60px 0
 }
 
 .footer-top h1 {
     font-size: 72px;
     font-family: 'Inter';
-    padding-top: 60px;
     text-transform: uppercase;
     margin: 0;
 }
@@ -231,7 +231,6 @@ hr {
 
 ul.footer-menu {
     list-style: none;
-    margin: 0 0 60px;
 }
 
 .footer-menu li a {
@@ -248,10 +247,14 @@ ul.footer-menu {
     
 }
 
-
-.footer-bottom {
-    padding: 20px 0;
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 20px;
 }
+
+
 
 
 

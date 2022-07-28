@@ -1,8 +1,4 @@
-
- /* Small devices */
-@media (max-width: 768px) { 
-/* Header Section CSS */
-
+@media (max-width: 566px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -16,10 +12,11 @@
         width: 100%;
     }
     .header-left h1{
-        font-size: 32px;
+        font-size: 28px;
     }
-    .header-right{
+    .header-right img{
         width: 100%;
+        height: auto;
     }
 
     /* Main Section CSS */
@@ -39,7 +36,76 @@
     }
 
     .single-card{
-        max-width: 400px;
+        width: 300px;
+    }
+    .single-card img{
+        width: 100%;
+    }
+
+    /* Footer Section CSS */
+    .footer-top h1{
+        font-size: 48px;
+        padding-top: 30px;
+    }
+
+    ul.footer-menu{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .footer-menu li a{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+}
+ /* Small devices */
+@media (min-width: 567px) and (max-width: 768px) { 
+/* Header Section CSS */
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: baseline;
+        height: auto;
+    }
+   
+
+    .header-left{
+        width: 100%;
+    }
+    .header-left h1{
+        font-size: 28px;
+    }
+    .header-right img{
+        width: 75%;
+        height: auto;
+    }
+
+    /* Main Section CSS */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fixed-left-buttons{
+        position: static;
+        display: flex;
+    }
+    .transfer-cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+    }
+
+    .single-card{
+        width: 400px;
+    }
+    .single-card img{
+        width: 100%;
     }
 
     /* Footer Section CSS */
